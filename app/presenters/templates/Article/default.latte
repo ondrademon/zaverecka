@@ -1,0 +1,17 @@
+{block content}
+<div class="container">
+    <div class="row">
+        <div class="col py-4">
+
+            <div class="article-detail">
+                <h3>{$article->title}</h3>
+                <a n:href="Article:delete $article->id" class="btn btn-sm btn-danger">Smazat</a>
+                <a n:href"Article:update $article->update_id" class="btn btn-sm btn-info">Upravit</a>
+                <div class="article-content py-4">
+                    {$article->content}
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>

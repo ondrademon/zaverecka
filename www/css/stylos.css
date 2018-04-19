@@ -1,0 +1,87 @@
+.main-footer-container {
+	background-color: #3f3f3f;
+	color: #FFF;
+}
+
+.btn
+{
+  background-color: #1aa7ff;
+}
+
+.header-container
+{
+  display: block;
+	background-color: #1aa7ff;
+	color: #FFF;
+  padding: 30px 0;
+  text-align: center;
+}
+
+.btn-delete
+{
+  position:relative;
+    top: 191px;
+    left: 420px;
+    right: -420px;
+    bottom: -191px;
+}
+
+.container
+{
+	height: 100%;
+  width: 100%;
+  background-color: #00dafd;
+}
+
+.paginator-centered
+{
+
+  width: 100%;
+  text-align: center;
+  display: grid;
+  background-color: yellow;
+}
+
+.main-footer-container
+{
+
+  position: sticky;
+  bottom: auto;
+}
+
+.footer-text
+{
+
+
+  float: left;
+  margin: 2%;
+  background-color: green;
+  text-align: center;
+}
+
+h2
+{
+	font-style: normal;
+	color: white;
+	background-color: #1ac6ff;
+	text-align: center;
+}
+
+.row
+{
+	position: relative;
+}
+
+#right-panel-link
+{
+	position: absolute;
+	top: 60px;
+	right: 20px;
+}
+
+#vlastnosti
+{
+	color: #e6f9ff;
+	padding-left: 30px;
+	padding-right: 30px;
+}
